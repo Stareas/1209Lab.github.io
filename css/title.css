@@ -1,0 +1,60 @@
+/* ========== 主页大标题:字号 + 阴影 + 上下飘动 ========== */
+#site-title {
+  font-size: 4.0rem !important;
+  color: #fff !important;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  animation: floatUp 3s ease-in-out infinite alternate;
+}
+
+/* ========== 副标题:居中 + 轻微缩放 ========== */
+#site-subtitle {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  letter-spacing: normal !important;
+  margin: 0 auto !important;
+  left: auto !important;
+  font-size: 1.3rem;
+  color: #fff;
+  transform-origin: center !important;
+  animation: subShow 8s ease-in-out infinite;
+}
+
+@media screen and (max-width: 768px) {
+  #site-title    { font-size: 2.6rem !important; }
+  #site-subtitle { font-size: 1.05rem; }
+}
+
+/* ========== 动画定义 ========== */
+@keyframes floatUp {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-8px); }
+}
+@keyframes subShow {
+  0%   { transform: scale(0.96); }
+  50%  { transform: scale(1); }
+  100% { transform: scale(0.96); }
+}
+
+/* 打字光标闪烁 */
+.typed-cursor {
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+/* canvas-nest 背景透明化 */
+/* 亮色模式背景 */
+html {
+  background: #b5b8d7;
+}
+/* 暗色模式背景 */
+html[data-theme="dark"] {
+  background: #27273b;
+}
+body {
+  background: transparent !important;
+}

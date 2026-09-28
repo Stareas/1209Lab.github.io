@@ -1,0 +1,57 @@
+/* 裁剪放大的图片,不遮挡下方内容 */
+#page-header {
+  overflow: hidden !important;
+}
+
+.banner-slide {
+  position: absolute;
+  top: -40%;              /* 上下各留 40% 缓冲,给平移留跑道 */
+  left: 0;
+  width: 100%;
+  height: 180%;
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none !important;
+  /* 外层只负责淡入淡出(不再带 scale) */
+  animation: bannerFade 15s infinite;
+}
+.banner-slide-inner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  /* 内层专门做缓慢缩放 */
+  animation: kenburns 5s ease-in-out infinite alternate;
+}
+@keyframes bannerFade {
+  0%   { opacity: 0; }
+  3%   { opacity: 1; }
+  33%  { opacity: 1; }
+  38%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes kenburns {
+  from { transform: scale(1); }
+  to   { transform: scale(1.08); }
+}
+/* 文字层在图片之上 */
+#site-info {
+  position: relative;
+  z-index: 2;
+}
+
+/* 半透明遮罩:加深版,保证文字清晰 */
+.banner-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 1;
+  pointer-events: none !important;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.35));
+}
+
+/* 向下滚动按钮置于最上层 */
+#scroll-down {
+  position: relative;
+  z-index: 3 !important;
+}
