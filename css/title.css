@@ -1,12 +1,12 @@
 /* ========== 主页大标题:字号 + 阴影 + 上下飘动 ========== */
-#site-title {
+/* 主页:白色飘动 */
+#page-header#page-header:has(.banner-slide) #site-title {
+  color: #ffffff !important;
+  -webkit-text-fill-color: currentColor !important;
   font-size: 4.0rem !important;
-  color: #fff !important;
-  letter-spacing: 2px;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35) !important;   /* 原 3px 3px 10px 0.5,太深 */
   animation: floatUp 3s ease-in-out infinite alternate;
 }
-
 /* ========== 副标题:居中 + 轻微缩放 ========== */
 #site-subtitle {
   display: block !important;
@@ -49,7 +49,7 @@
 /* canvas-nest 背景透明化 */
 /* 亮色模式背景 */
 html {
-  background: #b5b8d7;
+  background: #ecebeb;
 }
 /* 暗色模式背景 */
 html[data-theme="dark"] {
@@ -57,4 +57,20 @@ html[data-theme="dark"] {
 }
 body {
   background: transparent !important;
+}
+/* 兜底:--white 变量缺失时补定义 */
+:root {
+  --white: #ffffff;
+}
+
+/* 内页副标题(位于页头横幅、遮罩之上) */
+.page-subtitle {
+  margin-top: 12px;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }

@@ -13,7 +13,7 @@
   z-index: 0;
   pointer-events: none !important;
   /* 外层只负责淡入淡出(不再带 scale) */
-  animation: bannerFade 15s infinite;
+  animation: bannerFade 20s infinite;
 }
 .banner-slide-inner {
   width: 100%;
@@ -54,4 +54,14 @@
 #scroll-down {
   position: relative;
   z-index: 3 !important;
+}
+
+/* 文章页/内页标题容器提到遮罩之上 */
+#page-header #post-info {
+  z-index: 2;
+}
+/* 资料等内页标题容器:抬到遮罩之上 */
+#page-header #page-site-info {
+  position: relative;
+  z-index: 2;
 }

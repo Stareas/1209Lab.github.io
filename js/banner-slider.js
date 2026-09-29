@@ -3,7 +3,8 @@
   var imgs = [
     '/img/banner1.jpg',
     '/img/banner2.jpg',
-    '/img/banner3.jpg'
+    '/img/banner3.jpg',
+    '/img/banner4.jpg'
   ];
   var header = document.getElementById('page-header');
   if (!header) return;
