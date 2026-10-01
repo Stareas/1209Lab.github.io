@@ -74,3 +74,56 @@ body {
   position: relative;
   z-index: 2;
 }
+
+/* ===== 搜索弹窗改造 ===== */
+
+/* 1. 背景遮罩:加毛玻璃,更有质感 */
+#search-mask {
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+
+/* 2. 搜索框本体:大圆角、去阴影生硬感 */
+#search-dialog {
+  border-radius: 18px !important;
+  border: none !important;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28) !important;
+  overflow: hidden;
+}
+
+/* 3. 输入框:胶囊形 + 主题蓝描边 */
+#search-dialog input[type="text"],
+#search-dialog .search-input {
+  border-radius: 999px !important;
+  border: 2px solid #4facfe !important;
+  padding: 10px 20px !important;
+  outline: none !important;
+  transition: border-color 0.2s;
+}
+
+#search-dialog input[type="text"]:focus,
+#search-dialog .search-input:focus {
+  border-color: #a06cd5 !important;   /* 聚焦变紫 */
+}
+
+/* 4. 搜索结果条目:圆角 + hover 底色 */
+#search-dialog .search-result-list a,
+#search-dialog .local-search-result article {
+  border-radius: 10px;
+  padding: 8px 10px;
+  transition: background 0.15s;
+}
+
+#search-dialog .search-result-list a:hover,
+#search-dialog .local-search-result article:hover {
+  background: rgba(79, 172, 254, 0.12) !important;
+}
+
+/* 搜索弹窗分割线:多容器名覆盖 */
+#search-dialog hr,
+.search-dialog hr,
+#local-search hr,
+.search-wrapper hr {
+  display: none !important;
+}
