@@ -127,3 +127,21 @@ body {
 .search-wrapper hr {
   display: none !important;
 }
+
+/* 剪刀分割线:custom-hr 才是它的真名 */
+hr.custom-hr {
+  border: none !important;
+  background-image: none !important;                                          /* 去掉蓝色虚线(它是背景图或边框画的) */
+  border-top: 1px solid rgba(127, 127, 127, 0.25) !important;                 /* 换成干净细实线,想完全无线就删掉这行 */
+}
+
+hr.custom-hr::before,
+hr.custom-hr::after {
+  display: none !important;    /* 小剪刀在这 */
+  content: none !important;
+}
+
+#card-info,
+.card-author {
+  display: none !important;
+}
