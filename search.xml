@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>提问的智慧：如何优雅地让别人想帮你</title>
+    <url>/2026/10/06/2026-10-06-how-to-ask-questions/</url>
+    <content><![CDATA[<h1 id="提问的智慧：如何优雅地让别人想帮你"><a href="#提问的智慧：如何优雅地让别人想帮你" class="headerlink" title="提问的智慧：如何优雅地让别人想帮你"></a>提问的智慧：如何优雅地让别人想帮你</h1><blockquote>
+<p>本帖灵感来自 <a href="https://github.com/dogfight360/Stop-Ask-Questions-The-Stupid-Ways">Stop-Ask-Questions-The-Stupid-Ways</a>,<br>向原作者致敬——他骂得比我狠,建议搭配原文食用。</p>
+</blockquote>
+<p>在实验室混久了,你会发现一个残酷的事实:</p>
+<div class="note warning flat"><p><strong>同样一个问题,有人三分钟拿到答案,有人三天无人问津。</strong><br>区别不在问题难度,在于提问方式。</p>
+</div>
+
+<span id="more"></span>
+
+<h2 id="一、先感受下什么叫”把天聊死”"><a href="#一、先感受下什么叫”把天聊死”" class="headerlink" title="一、先感受下什么叫”把天聊死”"></a>一、先感受下什么叫”把天聊死”</h2><p>以下对话均取材于真实群聊,如有雷同,恭喜你对号入座成功。</p>
+<p><strong>反面教材 1:谜语人型</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A: 有大佬吗?</span><br><span class="line">B: ?</span><br><span class="line">A: 在吗?</span><br><span class="line">B: 说事</span><br><span class="line">A: 我那个东西不行了</span><br><span class="line">B: ......什么东西?</span><br><span class="line">A: 就是那个啊</span><br><span class="line">B: [已退出群聊]</span><br></pre></td></tr></table></figure>
+
+<p><strong>问题在哪</strong>:大佬不是算命先生,”那个东西”他知道个鬼。</p>
+<p><strong>反面教材 2:伸手党型</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A: 这个代码怎么写?</span><br><span class="line">(附带一张手机拍摄的、反光的、模糊的电脑屏幕照片)</span><br></pre></td></tr></table></figure>
+
+<p><strong>问题在哪</strong>:你的相机比你的问题更需要调试。别人帮你之前,得先帮你解锁”截图”技能。</p>
+<p><strong>反面教材 3:废话文学型</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A: 为什么我按教程做了,结果不一样?</span><br><span class="line">B: 哪一步不一样?</span><br><span class="line">A: 我也不知道,就是不对</span><br><span class="line">B: 报错信息呢?</span><br><span class="line">A: 没看</span><br></pre></td></tr></table></figure>
+
+<p><strong>问题在哪</strong>:”不对”不是一种错误描述,是一种情绪。</p>
+<p><strong>反面教材 4:理所当然型</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A: 帮我调一下这个代码,急,在线等</span><br><span class="line">(凌晨两点,无上下文,无代码,无谢谢)</span><br></pre></td></tr></table></figure>
+
+<p><strong>问题在哪</strong>:你急是你的事,别人没有义务为你的 deadline 买单。连”请”和”谢谢”都省了,Helper 模式直接关机。</p>
+<h2 id="二、问问题之前-先问自己三个问题"><a href="#二、问问题之前-先问自己三个问题" class="headerlink" title="二、问问题之前,先问自己三个问题"></a>二、问问题之前,先问自己三个问题</h2><div class="note info flat"><p><strong>自助者,人恒助之。</strong><br>在打扰别人之前,先确认这三件事。</p>
+</div>
+
+<h3 id="1-我搜过了吗"><a href="#1-我搜过了吗" class="headerlink" title="1. 我搜过了吗?"></a>1. 我搜过了吗?</h3><p>90% 的常见问题,搜索引擎前十条就有答案。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">❌ &quot;这个报错什么意思?&quot;</span><br><span class="line">✅ 先复制报错信息 → 粘贴到 Google/必应 → 点前三个链接</span><br></pre></td></tr></table></figure>
+
+<p><strong>搜索是基本功,也是尊重</strong>——你花两分钟能解决的问题,为什么要让别人花两分钟?</p>
+<h3 id="2-文档看了吗"><a href="#2-文档看了吗" class="headerlink" title="2. 文档看了吗?"></a>2. 文档看了吗?</h3><ul>
+<li>芯片的手册(Reference Manual)看了吗?</li>
+<li>函数库的官方文档翻了吗?</li>
+<li>报错信息里那个链接点了吗?</li>
+</ul>
+<div class="note success flat"><p><strong>报错信息不是给你看的,是给你搜的。</strong><br>复制、粘贴、搜索,三连之后再来问。</p>
+</div>
+
+<h3 id="3-我能复现吗"><a href="#3-我能复现吗" class="headerlink" title="3. 我能复现吗?"></a>3. 我能复现吗?</h3><p>如果你的问题是”有时候行有时候不行”,先搞清楚触发条件。<br><strong>能稳定复现的问题,才有被解决的可能。</strong></p>
+<h2 id="三、一个好问题的标准格式"><a href="#三、一个好问题的标准格式" class="headerlink" title="三、一个好问题的标准格式"></a>三、一个好问题的标准格式</h2><p>记住这个万能模板,能解决你 80% 的提问困境:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**背景**: 我在做什么(一两句话说清)</span><br><span class="line">**目标**: 我想达成什么效果</span><br><span class="line">**现状**: 现在发生了什么(报错信息/实际表现,完整贴出)</span><br><span class="line">**已尝试**: 我自己试过哪些方法,结果如何</span><br><span class="line">**环境**: 什么平台/版本/配置</span><br></pre></td></tr></table></figure>
+
+<p><strong>对比一下</strong>:</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">❌ 错误示范</button><button type="button" class="tab">✅ 正确示范</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">我的车跑不起来,怎么办?</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">【背景】智能车摄像头组,刚移植完新的边线提取代码</span><br><span class="line">【目标】正常识别赛道中线并输出舵机值</span><br><span class="line">【现状】出弯时中线全丢,串口打印 image[0] 全为 0</span><br><span class="line">【已尝试】① 补光,无效;② 调大阈值,直道正常但弯道还是丢</span><br><span class="line">【环境】RT1064 + 总钻风,室内日光灯</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<p>看出区别了吗?</p>
+<p><strong>第一个问题</strong>,别人想问也只能回”加钱”;<strong>第二个问题</strong>,群里大佬看完能直接猜出八成是曝光时间的问题。</p>
+<h2 id="四、XY-问题-你问的可能不是你想问的"><a href="#四、XY-问题-你问的可能不是你想问的" class="headerlink" title="四、XY 问题:你问的可能不是你想问的"></a>四、XY 问题:你问的可能不是你想问的</h2><p>经典场景:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">A: 怎么把字符串转成数字?</span><br><span class="line">B: 你要干嘛?</span><br><span class="line">A: 我要从串口读速度值</span><br><span class="line">B: 那你直接 sscanf 啊,转什么数字?</span><br><span class="line">A: 哦</span><br></pre></td></tr></table></figure>
+
+<p><strong>这就是 XY 问题</strong>:你真正的问题是 X(从串口读数据),但你问的是你自己臆想的解决方案 Y(字符串转数字)。</p>
+<div class="note danger flat"><p><strong>描述你的目标,而不是你的方案。</strong><br>你说目标,别人能给出十条路径;你说方案,别人只能在这一条路上陪你死磕。</p>
+</div>
+
+<h2 id="五、提问的礼仪-让帮助你的人舒服"><a href="#五、提问的礼仪-让帮助你的人舒服" class="headerlink" title="五、提问的礼仪:让帮助你的人舒服"></a>五、提问的礼仪:让帮助你的人舒服</h2><ol>
+<li><strong>一次问完整</strong>:别挤牙膏,”还有呢?”式对话谁也受不了</li>
+<li><strong>给上下文</strong>:代码贴全、报错贴全、截图代替手打</li>
+<li><strong>说谢谢</strong>:收到答案后回一句”解决了,谢谢”,下次别人还愿意帮你</li>
+<li><strong>反馈结果</strong>:如果你的问题解决了,在群里&#x2F;帖子里说一声怎么解决的——<strong>帮你的答案,也是在帮后来的人</strong></li>
+</ol>
+<h2 id="六、终极心法"><a href="#六、终极心法" class="headerlink" title="六、终极心法"></a>六、终极心法</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">水平越低的人,越觉得&quot;问问题是打扰别人&quot;</span><br><span class="line">水平越高的人,越知道&quot;好问题是稀缺资源&quot;</span><br></pre></td></tr></table></figure>
+
+<p><strong>大佬不怕你问,怕你懒得想。</strong></p>
+<p>带着思考来提问,你得到的不仅是答案,还有思路;<br>不带思考来伸手,你得到的只有疏远。</p>
+<hr>
+<blockquote>
+<p>本文档遵循”提问的智慧”精神编写。<br>如果你看完这篇还是想问”在吗”,建议先问一下自己:<strong>在吗?</strong></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习方法</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从 0 到省一:1209 实验室智能车竞赛全记录</title>
     <url>/2026/09/29/2026-09-29-smartcar-competition-summary/</url>
     <content><![CDATA[<h1 id="从-0-到省一-1209-实验室智能车竞赛全记录"><a href="#从-0-到省一-1209-实验室智能车竞赛全记录" class="headerlink" title="从 0 到省一:1209 实验室智能车竞赛全记录"></a>从 0 到省一:1209 实验室智能车竞赛全记录</h1><blockquote>
