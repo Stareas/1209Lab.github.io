@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>如何正确的提问</title>
+    <url>/2026/10/06/2026-10-06-asking-guide/</url>
+    <content><![CDATA[<h1 id="给新同学的提问指南"><a href="#给新同学的提问指南" class="headerlink" title="给新同学的提问指南"></a>给新同学的提问指南</h1><p>在学习新知识的过程中，我们时常会遇见自己难以解决的问题</p>
+<p>面对这种情况，闭门造车无疑会极大地拖慢我们的学习进程</p>
+<p>比较常见的做法是<strong>通过各大网络平台搜索相关问题，或把数据手册和问题截图一股脑丢给AI</strong></p>
+<p>还有一种做法是<strong>询问学长学姐</strong>，我们欢迎新同学的提问，但我们<strong>更欢迎“有效率”的提问</strong></p>
+<blockquote>
+<p>如何正确地，有效率地提问？</p>
+</blockquote>
+<hr>
+<span id="more"></span>
+
+<h2 id="一-“把天聊死”的几种方式"><a href="#一-“把天聊死”的几种方式" class="headerlink" title="一 “把天聊死”的几种方式"></a>一 “把天聊死”的几种方式</h2><p><strong>第一种:谜语人</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;那个东西怎么搞?&quot;</span></span><br><span class="line"><span class="string">&quot;哪个东西?&quot;</span></span><br><span class="line"><span class="string">&quot;就是那个啊&quot;</span></span><br><span class="line"><span class="string">&quot;......&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>你嘴里的”那个”，学长真的不知道。他昨天帮你看了代码，今天你说”那个”，可能是代码，也可能是你新买的电烙铁，还可能是你室友的情感问题。</p>
+<p><strong>具体的问题描述才能让别人更好地帮你。</strong></p>
+<p><strong>第二种:手机拍屏幕</strong></p>
+<p><img src="/img/2026-10-06-asking-guide-img/pp.png" alt="请选择你的拍屏导师"></p>
+<p>代码拍成照片发过来，反光、模糊、还带手影。</p>
+<p>清晰的图片是解决问题的基础。Windows系统默认截图快捷键为<strong>Win + Shift + S</strong>，QQ默认截图快捷键为<strong>Ctrl + Alt + A</strong>。<br>手机摄像头拍摄屏幕，不但看不清，还传达了一个信息:<strong>你没太把这个问题当回事。</strong> 别人自然也不太想当回事。</p>
+<p><strong>第三种:”就是不对”</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;我按教程做了,但是不对&quot;</span></span><br><span class="line"><span class="string">&quot;哪里不对?报错是什么?&quot;</span></span><br><span class="line"><span class="string">&quot;不知道,反正就是不行&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>“不对”不是一种<strong>错误描述</strong>，于事无补。<br>报错信息看不懂没关系，<strong>复制、粘贴、百度&#x2F;谷歌&#x2F;询问AI</strong><br>其实做完这三点，80% 的问题可自行解决。</p>
+<h2 id="二-问之前建议做的事"><a href="#二-问之前建议做的事" class="headerlink" title="二 问之前建议做的事"></a>二 问之前建议做的事</h2><p><strong>搜索问题</strong></p>
+<p>疑难杂症的出现概率是微乎其微的<br>我们的在学习中遇见的问题，几乎90％都早已被别人研究出了不同的解决方法<br>将报错信息原封不动复制到搜索引擎里，前几条基本就是答案。</p>
+<p><strong>翻阅文档</strong></p>
+<p>芯片手册、函数说明、报错里附带的链接，点击即可查看详情<br>大多数芯片和教程的手册都很详细，这也导致你需要消耗很多时间用来在手册中寻找内容<br>可以把手册网址丢给AI，并询问与之相关的问题，AI会给出较为靠谱的答案，如果没用再去询问他人</p>
+<p><strong>稳定复现</strong></p>
+<p>如果你的问题是”有时候行有时候不行”，最好先搞清楚在什么样的情况下不行<br>能稳定复现的问题才有被解决的可能</p>
+<h2 id="三-一个好问题长什么样"><a href="#三-一个好问题长什么样" class="headerlink" title="三 一个好问题长什么样"></a>三 一个好问题长什么样</h2><p>好的问题其实就是把事情说清楚</p>
+<blockquote>
+<p>我在做什么 → 我想实现什么 → 现在发生了什么 → 我自己试过什么</p>
+</blockquote>
+<p>对比一下:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;我的车跑不起来,怎么办?&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot; 我在移植新的边线提取代码。</span></span><br><span class="line"><span class="string">  现在出弯的时候中线全丢,串口打印出来全是 0。</span></span><br><span class="line"><span class="string">  补过光,也调过阈值,直道正常弯道还是丢。</span></span><br><span class="line"><span class="string">  环境是 RT1064 + 总钻风,室内灯光。&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>提供的信息越全，别人帮你的成本越低</strong> </p>
+<h2 id="四-XY混淆"><a href="#四-XY混淆" class="headerlink" title="四 XY混淆"></a>四 XY混淆</h2><p>一个很经典的XY-Problem：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">A:怎么把字符串转成数字?</span><br><span class="line">B:为什么要转?</span><br><span class="line">A:我想从串口读速度值</span><br><span class="line">B:直接 sscanf 即可</span><br></pre></td></tr></table></figure>
+
+<p>问题是 “从串口读数据”(X)<br>但提问的内容确是 “字符串转数字”(Y)。</p>
+<p>提问者想要解决 <strong>原问题 X</strong> ，且觉得解决了 <strong>引申问题 Y</strong> 就能解决 <strong>X 问题</strong><br>提问者对外提出了<strong>解决 Y</strong> 的的请求<br>回答者帮助提问者<strong>解决 Y 问题</strong>。<strong>（浪费了回答者和提问者双方的时间）</strong></p>
+<h2 id="五-几个小细节"><a href="#五-几个小细节" class="headerlink" title="五 几个小细节"></a>五 几个小细节</h2><ul>
+<li><strong>别发”在吗”</strong> 提问不需要像通信协议一样握手，直接提出问题有助于节省时间</li>
+<li><strong>一次问完整</strong> 不要等待追问再说明问题</li>
+<li><strong>如果最后自己搞定了,可以回复一下解决方法</strong>——你的答案会帮到下一个遇到问题的人</li>
+</ul>
+<h2 id="六、最后说两句"><a href="#六、最后说两句" class="headerlink" title="六、最后说两句"></a>六、最后说两句</h2><p><em><strong>“判断一个人，要看他提出的问题，而不是给出的答案。”——伏尔泰</strong></em></p>
+<p>带着思考来的问题,哪怕很基础,大家也很乐意聊——因为讲解的过程,对方也在整理自己的思路。</p>
+<p>什么都不想就来伸手,得到的只会是沉默。</p>
+<p>所以,下次想问”在吗”的时候,先问问自己:<strong>我准备好了吗?</strong></p>
+<hr>
+<blockquote>
+<p>参考阅读:<a href="https://github.com/dogfight360/Stop-Ask-Questions-The-Stupid-Ways">Stop-Ask-Questions-The-Stupid-Ways</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习方法</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>从 0 到省一:1209 实验室智能车竞赛全记录</title>
     <url>/2026/09/29/2026-09-29-smartcar-competition-summary/</url>
     <content><![CDATA[<h1 id="从-0-到省一-1209-实验室智能车竞赛全记录"><a href="#从-0-到省一-1209-实验室智能车竞赛全记录" class="headerlink" title="从 0 到省一:1209 实验室智能车竞赛全记录"></a>从 0 到省一:1209 实验室智能车竞赛全记录</h1><blockquote>
@@ -68,73 +135,6 @@
       <tags>
         <tag>竞赛总结</tag>
         <tag>智能车</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何正确的提问</title>
-    <url>/2026/10/06/2026-10-06-asking-guide/</url>
-    <content><![CDATA[<h1 id="给新同学的提问指南"><a href="#给新同学的提问指南" class="headerlink" title="给新同学的提问指南"></a>给新同学的提问指南</h1><p>在学习新知识的过程中，我们时常会遇见自己难以解决的问题</p>
-<p>面对这种情况，闭门造车无疑会极大地拖慢我们的学习进程</p>
-<p>比较常见的做法是<strong>通过各大网络平台搜索相关问题，或把数据手册和问题截图一股脑丢给AI</strong></p>
-<p>还有一种做法是<strong>询问学长学姐</strong>，我们欢迎新同学的提问，但我们<strong>更欢迎“有效率”的提问</strong></p>
-<blockquote>
-<p>如何正确地，有效率地提问？</p>
-</blockquote>
-<hr>
-<span id="more"></span>
-
-<h2 id="一-“把天聊死”的几种方式"><a href="#一-“把天聊死”的几种方式" class="headerlink" title="一 “把天聊死”的几种方式"></a>一 “把天聊死”的几种方式</h2><p><strong>第一种:谜语人</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;那个东西怎么搞?&quot;</span></span><br><span class="line"><span class="string">&quot;哪个东西?&quot;</span></span><br><span class="line"><span class="string">&quot;就是那个啊&quot;</span></span><br><span class="line"><span class="string">&quot;......&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>你嘴里的”那个”，学长真的不知道。他昨天帮你看了代码，今天你说”那个”，可能是代码，也可能是你新买的电烙铁，还可能是你室友的情感问题。</p>
-<p><strong>具体的问题描述才能让别人更好地帮你。</strong></p>
-<p><strong>第二种:手机拍屏幕</strong></p>
-<p><img src="/img/2026-10-06-asking-guide-img/pp.png" alt="请选择你的拍屏导师"></p>
-<p>代码拍成照片发过来，反光、模糊、还带手影。</p>
-<p>清晰的图片是解决问题的基础。Windows系统默认截图快捷键为<strong>Win + Shift + S</strong>，QQ默认截图快捷键为<strong>Ctrl + Alt + A</strong>。<br>手机摄像头拍摄屏幕，不但看不清，还传达了一个信息:<strong>你没太把这个问题当回事。</strong> 别人自然也不太想当回事。</p>
-<p><strong>第三种:”就是不对”</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;我按教程做了,但是不对&quot;</span></span><br><span class="line"><span class="string">&quot;哪里不对?报错是什么?&quot;</span></span><br><span class="line"><span class="string">&quot;不知道,反正就是不行&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>“不对”不是一种<strong>错误描述</strong>，于事无补。<br>报错信息看不懂没关系，<strong>复制、粘贴、百度&#x2F;谷歌&#x2F;询问AI</strong><br>其实做完这三点，80% 的问题可自行解决。</p>
-<h2 id="二-问之前建议做的事"><a href="#二-问之前建议做的事" class="headerlink" title="二 问之前建议做的事"></a>二 问之前建议做的事</h2><p><strong>搜索问题</strong></p>
-<p>疑难杂症的出现概率是微乎其微的<br>我们的在学习中遇见的问题，几乎90％都早已被别人研究出了不同的解决方法<br>将报错信息原封不动复制到搜索引擎里，前几条基本就是答案。</p>
-<p><strong>翻阅文档</strong></p>
-<p>芯片手册、函数说明、报错里附带的链接，点击即可查看详情<br>大多数芯片和教程的手册都很详细，这也导致你需要消耗很多时间用来在手册中寻找内容<br>可以把手册网址丢给AI，并询问与之相关的问题，AI会给出较为靠谱的答案，如果没用再去询问他人</p>
-<p><strong>稳定复现</strong></p>
-<p>如果你的问题是”有时候行有时候不行”，最好先搞清楚在什么样的情况下不行<br>能稳定复现的问题才有被解决的可能</p>
-<h2 id="三-一个好问题长什么样"><a href="#三-一个好问题长什么样" class="headerlink" title="三 一个好问题长什么样"></a>三 一个好问题长什么样</h2><p>好的问题其实就是把事情说清楚</p>
-<blockquote>
-<p>我在做什么 → 我想实现什么 → 现在发生了什么 → 我自己试过什么</p>
-</blockquote>
-<p>对比一下:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;我的车跑不起来,怎么办?&quot;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot; 我在移植新的边线提取代码。</span></span><br><span class="line"><span class="string">  现在出弯的时候中线全丢,串口打印出来全是 0。</span></span><br><span class="line"><span class="string">  补过光,也调过阈值,直道正常弯道还是丢。</span></span><br><span class="line"><span class="string">  环境是 RT1064 + 总钻风,室内灯光。&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>提供的信息越全，别人帮你的成本越低</strong> </p>
-<h2 id="四-XY混淆"><a href="#四-XY混淆" class="headerlink" title="四 XY混淆"></a>四 XY混淆</h2><p>一个很经典的XY-Problem：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">A:怎么把字符串转成数字?</span><br><span class="line">B:为什么要转?</span><br><span class="line">A:我想从串口读速度值</span><br><span class="line">B:直接 sscanf 即可</span><br></pre></td></tr></table></figure>
-
-<p>问题是 “从串口读数据”(X)<br>但提问的内容确是 “字符串转数字”(Y)。</p>
-<p>提问者想要解决 <strong>原问题 X</strong> ，且觉得解决了 <strong>引申问题 Y</strong> 就能解决 <strong>X 问题</strong><br>提问者对外提出了<strong>解决 Y</strong> 的的请求<br>回答者帮助提问者<strong>解决 Y 问题</strong>。<strong>（浪费了回答者和提问者双方的时间）</strong></p>
-<h2 id="五-几个小细节"><a href="#五-几个小细节" class="headerlink" title="五 几个小细节"></a>五 几个小细节</h2><ul>
-<li><strong>别发”在吗”</strong> 提问不需要像通信协议一样握手，直接提出问题有助于节省时间</li>
-<li><strong>一次问完整</strong> 不要等待追问再说明问题</li>
-<li><strong>如果最后自己搞定了,可以回复一下解决方法</strong>——你的答案会帮到下一个遇到问题的人</li>
-</ul>
-<h2 id="六、最后说两句"><a href="#六、最后说两句" class="headerlink" title="六、最后说两句"></a>六、最后说两句</h2><p><em><strong>“判断一个人，要看他提出的问题，而不是给出的答案。”——伏尔泰</strong></em></p>
-<p>带着思考来的问题,哪怕很基础,大家也很乐意聊——因为讲解的过程,对方也在整理自己的思路。</p>
-<p>什么都不想就来伸手,得到的只会是沉默。</p>
-<p>所以,下次想问”在吗”的时候,先问问自己:<strong>我准备好了吗?</strong></p>
-<hr>
-<blockquote>
-<p>参考阅读:<a href="https://github.com/dogfight360/Stop-Ask-Questions-The-Stupid-Ways">Stop-Ask-Questions-The-Stupid-Ways</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>学习方法</category>
-      </categories>
-      <tags>
-        <tag>学习方法</tag>
       </tags>
   </entry>
 </search>
